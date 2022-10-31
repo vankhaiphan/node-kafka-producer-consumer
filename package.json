@@ -1,0 +1,20 @@
+{
+  "name": "node-kafka-producer-consumer",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "avsc": "^5.7.6",
+    "chance": "^1.1.9",
+    "kafkajs": "^2.2.2",
+    "node-rdkafka": "^2.14.0"
+  },
+  "scripts": {
+    "start:producer": "node producer/index.js",
+    "start:consumer": "node consumer/index.js"
+  },
+  "keywords": [],
+  "author": "Van Khai PHAN",
+  "license": "ISC",
+  "type": "module",
+  "description": "Producing random animal with Kafka"
+}
